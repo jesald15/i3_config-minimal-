@@ -70,11 +70,11 @@ To make this setup work properly, ensure the following applications are installe
 * **lm_sensors**: CPU temperature monitoring
 * **feh**: Wallpaper management
 * **flameshot**: Screenshot utility
-
+* **xorg-xinput**: Tounchpad-setup
 Install on Arch Linux:
 
 ```bash
-sudo pacman -S i3 i3status kitty brave dmenu dex xss-lock i3lock networkmanager nm-applet brightnessctl playerctl lm_sensors feh flameshot
+sudo pacman -S i3 i3status kitty brave dmenu dex xss-lock i3lock networkmanager nm-applet brightnessctl playerctl lm_sensors feh flameshot xorg-xinput
 ```
 
 Run sensors detect:
