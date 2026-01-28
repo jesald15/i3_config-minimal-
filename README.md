@@ -1,4 +1,4 @@
-#STEP0: ESTABLISHING A WIFI CONNECTION
+## STEP0: ESTABLISHING A WIFI CONNECTION
 1. Prompt specified for wifi
 ```
 iwctl
@@ -16,7 +16,7 @@ iwctl --passpharse "Type your wifi password" station wlan0 connect "Type your SS
 ```
 ping archlinus.org (or any website) 
 ```
-# STEP1: Arch Install
+## STEP1: Arch Install
 Just type:
 
 ```
@@ -24,13 +24,13 @@ archinstall
 ```
 ---
 
-# i3WM Dot files
+## i3WM Dot files
 
 This README provides an overview of the i3 configuration setup, required applications, and all updated keyboard shortcuts.
 
 ---
 
-## 1. Overview
+### 1. Overview
 
 This i3 configuration is designed for Arch Linux with the following features:
 
@@ -47,18 +47,18 @@ i3status configuration: `~/.config/i3status/config`
 
 ---
 
-## 2. Required Applications / Packages
+### 2. Required Applications / Packages
 
 To make this setup work properly, ensure the following applications are installed:
 
-### Essentials
+#### Essentials
 
 * **i3**: Window manager
 * **i3status**: Status bar manager
 * **kitty**: Terminal emulator
 * **brave**: Web browser
 
-### Utilities
+#### Utilities
 
 * **dmenu**: Application launcher
 * **dex**: For XDG autostart support
@@ -84,16 +84,16 @@ sudo sensors-detect
 
 ---
 
-## 3. Shortcuts (Updated)
+### 3. Shortcuts
 
 All shortcuts are documented in the file `i3_shortcuts.txt`. Quick summary:
 
-### Modifiers
+#### Modifiers
 
 * $mod = Mod4 (Super / Windows key)
 * Alt = Mod1
 
-### Window Management
+#### Window Management
 
 * Open terminal: $mod + Return → kitty
 * Open browser: $mod + b → brave
@@ -110,7 +110,7 @@ All shortcuts are documented in the file `i3_shortcuts.txt`. Quick summary:
 * Tabbed layout: Alt + w
 * Toggle split layout: Alt + e
 
-### Window Movement & Resize
+#### Window Movement & Resize
 
 * Focus left: Alt + j or Alt + Left
 * Focus down: Alt + k or Alt + Down
@@ -124,34 +124,34 @@ All shortcuts are documented in the file `i3_shortcuts.txt`. Quick summary:
 * Resize with keys: h/j/k/; or arrow keys
 * Exit resize mode: Enter or Escape or Alt + r
 
-### Workspaces
+#### Workspaces
 
 * Switch to workspace 1-10: $mod + 1..0
 * Move container to workspace 1-10: $mod + Shift + 1..0
 
-### Volume
+#### Volume
 
 * Raise volume: XF86AudioRaiseVolume
 * Lower volume: XF86AudioLowerVolume
 * Mute/unmute: XF86AudioMute
 * Mute/unmute microphone: XF86AudioMicMute
 
-### Brightness
+#### Brightness
 
 * Brightness up: XF86MonBrightnessUp
 * Brightness down: XF86MonBrightnessDown
 
-### Screenshots
+#### Screenshots
 
 * Flameshot GUI: Print
 
-### Media Controls
+#### Media Controls
 
 * Play/Pause: XF86AudioPlay / XF86AudioPause
 * Next track: XF86AudioNext
 * Previous track: XF86AudioPrev
 
-### Power / Session
+#### Power / Session
 
 * Suspend: $mod + Shift + s
 * Hibernate: $mod + Shift + h
@@ -159,10 +159,10 @@ All shortcuts are documented in the file `i3_shortcuts.txt`. Quick summary:
 * Reboot: $mod + Shift + m
 * Exit i3: $mod + Shift + e
 
-### App Launcher
+#### App Launcher
 
 * dmenu / app launcher: $mod + d (dmenu_run)
 
-### Wallpaper
+#### Wallpaper
 
 * Apply wallpaper on start: exec_always --no-startup-id ~/.fehbg
