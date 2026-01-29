@@ -202,7 +202,7 @@ If this setup helped you revive an old machine or learn Arch Linux, consider sup
 Even a ⭐ on the repository helps a lot.
 
 [<img width="120" height="120" alt="buymeacoffee" src="https://github.com/user-attachments/assets/3fb313a4-17ec-484a-9df5-11ff6056d0c0" />
-](buymeacoffee.com/jesald)
+](https://buymeacoffee.com/jesald)
 
 ---
 
