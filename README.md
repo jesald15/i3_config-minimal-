@@ -45,7 +45,7 @@ This i3 configuration is designed for Arch Linux with the following features:
 * Integrated i3status bar with CPU usage, temperature, battery, volume, brightness, and Wi-Fi
 * App launchers and media control support
 * Power management shortcuts
-* Terminal: kitty, Browser: Brave
+* Terminal: kitty, Browser: //Your preferred browser
 * Wallpaper management via feh
 
 Configuration file: `~/.config/i3/config`
