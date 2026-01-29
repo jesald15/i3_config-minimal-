@@ -240,6 +240,6 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 # Enable tap-to-click and two-finger right click
-exec --no-startup-id xinput set-prop "ELAN0712:00 04F3:30FD Touchpad" "libinput Tapping Enabled" 1
-exec --no-startup-id xinput set-prop "ELAN0712:00 04F3:30FD Touchpad" "libinput Click Method Enabled" 0 1
+exec --no-startup-id xinput set-prop "type_your_model Touchpad" "libinput Tapping Enabled" 1  
+exec --no-startup-id xinput set-prop "type_your_model Touchpad" "libinput Click Method Enabled" 0 1
 
