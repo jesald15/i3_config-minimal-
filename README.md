@@ -1,6 +1,7 @@
 # Welcome to Arch install setup 
 
-<img width="368" height="311" alt="image" src="https://github.com/user-attachments/assets/4fa9b364-b376-4b78-823c-db1b24c3ef53" />
+<img width="760" height="428" alt="image" src="https://github.com/user-attachments/assets/388c2a0b-7cf2-4ccf-8dd2-9f090c7ea0f6" />
+
 
 ## STEP0: ESTABLISHING A WIFI CONNECTION
 1. Prompt specified for wifi
