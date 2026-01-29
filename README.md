@@ -1,3 +1,25 @@
+# Welcome to Arch install setup 
+
+                                       ▄
+                                      ▟█▙
+                                     ▟███▙
+                                    ▟█████▙
+                                   ▟███████▙
+                                  ▂▔▀▜██████▙
+                                 ▟██▅▂▝▜█████▙
+                                ▟█████████████▙
+                               ▟███████████████▙
+                              ▟█████████████████▙
+                             ▟███████████████████▙
+                            ▟█████████▛▀▀▜████████▙
+                           ▟████████▛      ▜███████▙
+                          ▟█████████        ████████▙
+                         ▟██████████        █████▆▅▄▃▂
+                        ▟██████████▛        ▜█████████▙
+                       ▟██████▀▀▀              ▀▀██████▙
+                      ▟███▀▘                       ▝▀███▙
+                     ▟▛▀                               ▀▜▙
+
 ## STEP0: ESTABLISHING A WIFI CONNECTION
 1. Prompt specified for wifi
 ```
@@ -71,10 +93,12 @@ To make this setup work properly, ensure the following applications are installe
 * **feh**: Wallpaper management
 * **flameshot**: Screenshot utility
 * **xorg-xinput**: Tounchpad-setup
+* **blueman**: Bluetooth
+
 Install on Arch Linux:
 
 ```bash
-sudo pacman -S i3 i3status kitty brave dmenu dex xss-lock i3lock networkmanager nm-applet brightnessctl playerctl lm_sensors feh flameshot xorg-xinput
+sudo pacman -S i3 i3status kitty brave dmenu dex xss-lock i3lock networkmanager nm-applet brightnessctl playerctl lm_sensors feh flameshot xorg-xinput blueman
 ```
 
 Run sensors detect:
@@ -167,3 +191,18 @@ All shortcuts are documented in the file `i3_shortcuts.txt`. Quick summary:
 #### Wallpaper
 
 * Apply wallpaper on start: exec_always --no-startup-id ~/.fehbg
+
+# Misc
+
+## Fix Android Phone Not Recognized on Arch Linux
+
+If your Android phone is detected by USB (`lsusb`) but does not appear in the file manager, the issue is missing MTP support. Install the required packages below to enable proper Android file transfer on Arch Linux.
+
+```bash
+sudo pacman -S usbutils
+lsusb
+sudo pacman -S android-file-transfer mtpfs gvfs gvfs-mtp
+```
+
+---
+
