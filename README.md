@@ -176,11 +176,7 @@ This i3 configuration includes:
 
 ##  Keyboard Shortcuts
 
-All keyboard shortcuts are documented in:
-
-```text
-i3_shortcuts.md
-```
+All keyboard shortcuts are documented in: `i3_shortcuts.md`
 
 ---
 
