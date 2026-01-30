@@ -3,7 +3,8 @@
 A **minimal Arch Linux installation** using **archinstall** and **i3 Window Manager**, designed for **low-end, aging, or nearly-dead laptops**. This setup prioritizes performance, simplicity, and a clean workflow with sane defaults.
 
 ---
-![Uploading image.png…]()
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c08d087e-177a-497d-82ba-47cde0a14f03" />
+
 
 
 
